@@ -19,14 +19,14 @@ function juice(apple,orange){
 const appleorange=juice(5,0);
 console.log(appleorange);
 console.log(juice(2,3));*/
-
+///////////////////////////////////////////////////////////////
 //function expression
 /*const age=function calcAge(age1){
     return 2037-age1;
 }
 const years=age(2000);
 console.log(years);*/
-
+///////////////////////////////////////////////////////////////////////
 //Arrow function
 /*const age=(birthYear,firstName)=>{
     const years=2037-birthYear;
@@ -34,7 +34,7 @@ console.log(years);*/
     return `${firstName} has ${retirementAge} years for retire`;
 }
 console.log(age(2001,'bob'));*/
-
+///////////////////////////////////////////////////////////////////////////////
 //function calling inside other
 /*function juice(apple,orange){
     const applepiece=pieces(apple);
@@ -47,7 +47,7 @@ function pieces(fruit){
 }
 const juicemaker=juice(2,3);
 console.log(juicemaker);*/
-
+////////////////////////////////////////////////////////////////////////////////////////
 //coding challange 1 🚀
 /*function clacAvg(sc1,sc2,sc3){
         let finalAvg=(sc1+sc2+sc3)/3;
@@ -72,7 +72,7 @@ checkWinner(avg1,avg2);
 const avgOfD=clacAvg(85,54,41);
 const avgOfK=clacAvg(23,34,27);
 checkWinner(avgOfD,avgOfK);*/
-
+////////////////////////////////////////////////////////////////////////////
 //arrays
 /*const friends=['om','jay','jit'];
 console.log(friends);
@@ -84,7 +84,7 @@ let i;
 for (i=0;i<ages.length;i++){
     console.log(calcAge(ages[i]));
 }*/
-
+/////////////////////////////////////////////////////////////////////////////
 //array methods
 /*const a=["jit",'mit','hit','git'];
 const b=a.pop();
@@ -97,7 +97,7 @@ a.shift();
 console.log(a);
 console.log(a.includes('hit'));
 console.log(a.indexOf('mit'));*/
-
+//////////////////////////////////////////////////////////////////////////////
 //coding challange 2🚀
 /*const calcTip=(bill)=>{
     if(bill>=50 && bill<=300){
@@ -116,7 +116,7 @@ console.log(a.indexOf('mit'));*/
 console.log(bills);
 console.log(tips);
 console.log(total);*/
-
+////////////////////////////////////////////////////////////////////////////////////
 //objects
 /*const a={
     firstName:"john",
@@ -134,7 +134,7 @@ const jonas = {
   jonas.location="delhi";
   jonas['twitter']="not";
   console.log(`${jonas.firstName} has ${jonas.friends.length} and his best friend is ${jonas.friends[0]}`);*/
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //object methods
   /*const jonas = {
     firstName: 'Jonas',
@@ -151,7 +151,7 @@ const jonas = {
   console.log(`${jonas.firstName} is a ${jonas['calcAge']()} years old ${jonas.job} and he has ${jonas.hasLienece?'a':'no'} lienece.`);
   //or
   console.log(`${jonas.firstName} is a ${jonas.calcAge()} years old ${jonas.job} and he has ${jonas.hasLienece?'a':'no'} lienece.`);*/
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //coding challenege 3🚀
  /*const mark={
     FullName:'mark miller',
@@ -178,7 +178,7 @@ const jonas = {
   else{
     console.log(`${mark.FullName} 's BMI (${mark.calcBMI()}) is higher than ${john.FullName}'s BMI ${john.calcBMI()}`);
 }*/
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //for loop
 /*for(let rep=1;rep<=10;rep++){
     console.log(`lifting weight in repetation ${rep} `);
@@ -222,7 +222,7 @@ for(let i=1;i<=jonasArray.length;i++){
         console.log(`lifting weight for ${i} times`);
     }
 }*/
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 //while
 // let dice=Math.trunc(Math.random()*6)+1;
 // while(dice!==6){
@@ -231,7 +231,7 @@ for(let i=1;i<=jonasArray.length;i++){
 //     if(dice===6)
 //     console.log("you get number 6");
 // }
-
+///////////////////////////////////////////////////////////////////////////////////////////
 //coding challange 4🚀
 const bills=[22,295,176,440,37,105,10,1100,86,52];
 const tips=[];
