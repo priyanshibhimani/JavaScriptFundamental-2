@@ -19,7 +19,7 @@ function juice(apple,orange){
 const appleorange=juice(5,0);
 console.log(appleorange);
 console.log(juice(2,3));*/
-///////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 //function expression
 /*const age=function calcAge(age1){
     return 2037-age1;
